@@ -1,0 +1,135 @@
+.degrade {
+		background: linear-gradient(#CEFFE2, white);
+		padding-bottom: 60px;
+}
+
+.espaço {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.navegacao {
+	display: flex;
+	align-items: center;
+}
+
+.cabeca-nav {
+ 	margin: auto;
+}
+
+.cabeca {
+	display: inline-block;
+	padding: 10px 80px 10px 80px;
+	text-decoration: none;
+	margin: 10px 10px 20px 0;
+	border: 1px solid black;
+	font-size: 30px ;
+}
+
+.cabeca:hover {
+	background-color: #F5F5F5;
+	box-shadow: 6px 6px 6px #CCC;
+}
+
+.texto-dica {
+	text-align: center;
+	margin: 50px 400px 60px 400px;
+	font-family: 'Ephesis', cursive;
+	font-size: 32px;
+}
+
+.fundo {
+	background: linear-gradient(white, #7595F0);
+}
+
+.beneficios {
+	background-color: #7595F0;
+	margin: 0 50px 0 50px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.beneficios-li {
+	display: flex;
+	margin: 20px;
+	width: 320px;
+	font-family: 'Mali', cursive;
+}
+
+.mala {
+	width: 48px;
+}
+
+.idiomas {
+	text-align: center;
+	margin-top: 20px;
+}
+
+.idiomas li:hover {
+	border-color: red;
+	box-shadow: 6px 6px 6px #CCC;
+	transition: 300ms;
+}
+
+.idiomas li {
+	display: inline-block;
+	border: 2px solid black;
+	padding: 96px;
+	margin: 0 16px 0 16px;
+	
+}
+	
+}
+
+.decoracao {
+	text-decoration: none;
+	background-color: #F5F5F5;
+	border:2px solid black;
+	border-radius: 7px;
+	margin: 20px;
+}
+
+.testes {
+	display: flex;
+}
+
+.esquerda-div {
+	display: flex;
+	flex-direction: column;
+}
+
+#teste-um {
+	background-color: blue;
+	padding: 30px;
+}
+
+#teste-dois {
+	background-color: pink;
+	padding: 30px;
+}
+
+#teste-tres {
+	background-color: yellow;
+	padding: 30px;
+}
+
+.dicas {
+	padding: 10px;
+	text-decoration: none;
+	background-color: #F5F5F5;
+	border: 2px solid black;
+	border-radius: 10px;
+}
+
+.dicas:hover {
+	border-color: red;
+	box-shadow: 6px 6px 6px #CCC;
+
+}
+
+footer {
+		margin-top: 30px; 
+		background: linear-gradient(white, #CEFFE2);
+		padding: 80px;
+}
